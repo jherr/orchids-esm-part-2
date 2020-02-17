@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//cdn.muicss.com/mui-0.10.1/css/mui.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <component src="http://localhost:4002/header.js"></component>
+    <component src="http://localhost:4002/banner.js" text="Buy these orchids!"></component>
+    <div class="mui-container">
+      <div class="mui-col-md-8">
+        <component src="http://localhost:4002/orchids.js"></component>
+      </div>
+      <div class="mui-col-md-4">
+        <component src="http://localhost:4002/buy-tools.js"></component>
+      </div>
+    </div>
+    <component src="http://localhost:4002/footer.js"></component>
+  </body>
+  <script type="module" src="./index.js"></script>
+</html>
